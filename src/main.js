@@ -1,7 +1,8 @@
-import {Something} from './something';
+import {
+    FizzBuzz
+}
+from './FizzBuzz';
 
-var s = new Something();
-
-console.log(s);
-
-console.log('1 + 2 is ', s.sum(1, 2));
+var fizzBuzz = new FizzBuzz();
+fizzBuzz.generate(1, 100);
+fizzBuzz.iterate() // prints the result to console
