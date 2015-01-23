@@ -1,3 +1,7 @@
+// a function that will count from 1 to 100, and for each count
+// if the number is an even multiple of 5 output “Fizz”
+// if a multiple of 7 output “Buzz”, otherwise output "FizzBuzz"
+
 class FizzBuzz {
     constructor() {
         this.results = [];
