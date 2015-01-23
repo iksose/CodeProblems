@@ -9,9 +9,9 @@ import {
 from './NumSum';
 
 import {
-    Anagram
+    Dictionary
 }
-from './Anagrams';
+from './Dictionary';
 
 var fizzBuzz = new FizzBuzz();
 fizzBuzz.generate(1, 100);
@@ -22,6 +22,7 @@ var numSum = new NumSum();
 numSum.compute(17);
 // console.log(numSum.sum); // prints the result to console
 
-var anagram = new Anagram();
-anagram.find(20);
-console.log(anagram);
+var dictionary = new Dictionary();
+dictionary.findPalindromes(20);
+dictionary.findAnagrams(20);
+console.log(dictionary);
