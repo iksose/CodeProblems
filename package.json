@@ -1,0 +1,30 @@
+{
+  "name": "Code Problems",
+  "version": "0.0.0",
+  "description": "A repo to play with ES6++",
+  "homepage": "https://github.com/iksose/CodeProblems",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iksose/CodeProblems.git"
+  },
+  "dependencies": {
+    "traceur": "*",
+    "requirejs": "~2.1.11"
+  },
+  "devDependencies": {
+    "karma": "~0.12.0",
+    "karma-jasmine": "~0.2.2",
+    "karma-chrome-launcher": "~0.1.2",
+    "karma-traceur-preprocessor": "*",
+    "karma-requirejs": "~0.2.1",
+    "assert": "angular/assert#dist",
+    "gulp": "~3.5.6",
+    "gulp-traceur": "*",
+    "gulp-connect": "~1.0.7"
+  },
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "author": "Jonathan Jennings",
+  "license": "MIT"
+}

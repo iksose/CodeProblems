@@ -1,0 +1,11 @@
+{
+  "traceur": {
+    "modules": "amd",
+    "sourceMap": true,
+    "types": false,
+    "typeAssertions": false,
+    "typeAssertionModule": "assert",
+    "annotations":false,
+    "sourceMaps": "inline"
+  }
+}
