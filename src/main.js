@@ -1,17 +1,6 @@
-import {
-    FizzBuzz
-}
-from './FizzBuzz';
-
-import {
-    NumSum
-}
-from './NumSum';
-
-import {
-    Dictionary
-}
-from './Dictionary';
+import {FizzBuzz} from './FizzBuzz';
+import {NumSum} from './NumSum';
+import {Dictionary} from './Dictionary';
 
 var fizzBuzz = new FizzBuzz();
 fizzBuzz.generate(1, 100);

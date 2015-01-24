@@ -8,24 +8,24 @@ class FizzBuzz {
     }
     generate(start, stop) {
         for (let i = start; i <= stop; i++) {
-            let process = {
+            let currResult = {
                 index: i,
                 string: ''
             };
-            if (i % 5 === 0) { // 5 ouputs Fizz
+            if (i % 5 === 0) {
                 if (i % 7 === 0) { // check if it's divisible by 5 & 7, output FizzBuzz
-                    process.string = "FizzBuzz"
-                    this.results.push(process);
-                } else { // just 5
-                    process.string = "Fizz"
-                    this.results.push(process);
+                    currResult.string = "FizzBuzz"
+                    this.results.push(currResult);
+                } else {
+                    currResult.string = "Fizz"
+                    this.results.push(currResult);
                 }
-            } else if (i % 7 == 0) { // 7 outputs Buzz
-                process.string = "Buzz"
-                this.results.push(process);
+            } else if (i % 7 == 0) {
+                currResult.string = "Buzz"
+                this.results.push(currResult);
             } else { // no match, output FizzBuzz
-                process.string = "FizzBuzz"
-                this.results.push(process);
+                currResult.string = "FizzBuzz"
+                this.results.push(currResult);
             }
         }
         return this.results;
